@@ -589,11 +589,19 @@ h3.my-profession {
 }
 
 /* portfolio */
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+.btn-style{
+margin: auto;
+}
 .portfolio .container {
   padding-bottom: 40px;
 }
 
 .portfolio .portfolio-heading {
+  display: flex;
   flex: 0 0 100%;
   max-width: 100%;
   margin-bottom: 40px;
