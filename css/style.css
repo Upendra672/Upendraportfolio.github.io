@@ -617,7 +617,6 @@ margin: auto;
   margin-bottom: 30px;
 }
 .portfolio .portfolio-item-inner {
-  border: 6px solid var(--bg-black-100);
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
@@ -628,6 +627,10 @@ margin: auto;
   display: block;
   border-radius: 20px;
 }
+.portfolio-img h3{
+  color: var(--skin-color);
+}
+
 
 /* contact */
 .contact-title {
