@@ -562,6 +562,7 @@ h3.my-profession {
   margin: 0 auto 30px;
   text-align: center;
   transition: all 0.3 ease;
+  padding: 10px 0;
 }
 .service .service-item .service-item-inner .icon .fa {
   font-size: 40px;
@@ -629,9 +630,27 @@ margin: auto;
 }
 .portfolio-img h3{
   color: var(--skin-color);
+  padding: 10px;
 }
-
-
+.row ol{
+  margin-left: 36px;
+  margin-bottom: 50px;
+  color: var(--skin-color);
+  font-size: 20px;
+}
+.row ol li{
+  margin: 12px 0;
+  
+}
+.row ol li a{
+  text-decoration: none;
+  color: var(--skin-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+.row ol li a:hover{
+  color: var(--text-black-900);
+}
 /* contact */
 .contact-title {
   color: var(--skin-color);
