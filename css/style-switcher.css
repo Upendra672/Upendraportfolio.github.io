@@ -13,6 +13,7 @@
 }
 .style-switcher.open{
     transform: translateX(-25px);
+    transition: all .3s ease;
 }
 .style-switcher .s-icon {
   position: absolute;
